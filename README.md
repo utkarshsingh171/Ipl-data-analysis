@@ -1,115 +1,107 @@
-IPL Analysis Dashboard (2008–2025) | Power BI
+# 🏏 IPL Data Analysis (2008–2025)
 
-An interactive Power BI dashboard that provides deep insights into Indian Premier League (IPL) seasons from 2008 to 2025.
-This project transforms raw IPL match data into meaningful, season-wise analytics with a strong focus on team performance, match outcomes, and player achievements.
+## 📌 Project Overview
+This project provides an end-to-end **data analysis of the Indian Premier League (IPL) from 2008 to 2025**.  
+The goal is to uncover **team performance trends, player achievements, season statistics, and tournament insights** using interactive dashboards and data-driven metrics.
 
-🔍 Project Overview
+The analysis is designed for **sports analytics, business intelligence, and data analyst portfolios**, with a strong focus on **ATS-friendly skills and tools**.
 
-The IPL Analysis Dashboard allows users to explore season-specific insights using dynamic slicers.
-By selecting a particular season, users can instantly view:
+---
 
-Tournament winner & runner-up
+## 🎯 Objectives
+- Analyze **season-wise IPL performance** (2008–2025)
+- Identify **winners, runners-up, and points table rankings**
+- Track **Orange Cap and Purple Cap holders**
+- Compare **team performance across seasons**
+- Visualize key KPIs such as sixes, fours, centuries, and matches played
 
-Team-wise performance metrics
+---
 
-Batting and bowling milestones
+## 📊 Key Features & Insights
+- 🏆 **Season Winner & Runner-Up Analysis**
+- 🧢 **Orange Cap Holder** (Top Run Scorer per season)
+- 🎯 **Purple Cap Holder** (Top Wicket Taker per season)
+- 📈 **Team Performance Table**
+  - Matches Played
+  - Matches Won
+  - Matches Lost
+  - Total Points
+- 📊 **Tournament KPIs**
+  - Total Sixes
+  - Total Fours
+  - Total Teams Played
+  - Total Centuries
+- 🎛️ **Season-wise Interactive Filter (2008–2025)**
 
-Match statistics filtered strictly to T20 format
+---
 
-The dashboard is designed to be intuitive, fast, and visually consistent, making it suitable for cricket fans, analysts, and data enthusiasts.
+## 🧩 Dashboard Highlights
+- Fully interactive **Power BI dashboard**
+- Dynamic **season slicer**
+- KPI cards for quick insights
+- Clean tabular comparison of teams
+- Player-focused visual storytelling
 
-📊 Key Features
+---
 
-Season Selector (2008–2025) for dynamic analysis
+## 🛠️ Tech Stack
+- **Power BI** – Dashboard design & visualization  
+- **DAX** – Calculated measures and KPIs  
+- **Excel / CSV** – Data preprocessing and cleaning  
+- **SQL** – Data extraction and transformation  
 
-Winner & Runner-Up Cards with team branding
+---
 
-Team Performance Table
+## 📂 Dataset Description
+The dataset includes:
+- Season Year
+- Team Name
+- Matches Played, Won, Lost
+- Total Points
+- Total Sixes & Fours
+- Total Centuries
+- Orange Cap Holder (Runs)
+- Purple Cap Holder (Wickets)
 
-Matches Played
+> ⚠️ Dataset is used for analytical and educational purposes only.
 
-Matches Won / Lost
+---
 
-Total Points
+## 📈 Sample KPIs
+- Total Sixes per Season  
+- Total Fours per Season  
+- Top Run Scorer (Orange Cap)  
+- Top Wicket Taker (Purple Cap)  
+- Team Points Table Rankings  
 
-Key KPIs
+---
 
-Total Sixes
+## 🚀 Use Cases
+- Sports analytics and performance evaluation
+- Business intelligence case study
+- Data analyst portfolio project
+- Dashboard storytelling for recruiters
 
-Total Fours
+---
 
-Total Teams Played
+## 📸 Dashboard Preview
+<img width="1371" height="763" alt="Screenshot 2026-01-20 000328" src="https://github.com/user-attachments/assets/c7b16287-e16b-43f1-9554-c75792b89af8" />
 
-Total Centuries
+<img width="1375" height="763" alt="Screenshot 2026-01-20 000309" src="https://github.com/user-attachments/assets/54af6a16-aff7-4c66-a849-3682b6d505d5" />
 
-Orange Cap Holder
+<img width="1370" height="767" alt="Screenshot 2026-01-20 000145" src="https://github.com/user-attachments/assets/ecf96ac6-0765-429b-8fc9-b0fedea4b22d" />
 
-Player Name
+---
 
-Total Runs
+## 🔮 Future Enhancements
+- Player career-level analysis
+- Venue-wise performance insights
+- Toss impact analysis
+- Predictive modeling for match outcomes
+- Web-based dashboard deployment
 
-Team
 
-Purple Cap Holder
 
-Player Name
+---
 
-Total Wickets
-
-Team
-
-Strict filtering for T20 matches only
-
-Clean UI with consistent color themes and team logos
-
-🧠 Technical Highlights
-
-Advanced DAX measures using:
-
-CALCULATE
-
-USERELATIONSHIP
-
-SELECTEDVALUE
-
-Conditional filters for match type and season
-
-Star schema data modeling for performance optimization
-
-Custom measures for team-wise matches played (handling home/away teams)
-
-Dynamic visuals responding to slicers and cross-filtering
-
-🛠 Tools & Technologies
-
-Power BI
-
-DAX
-
-Data Modeling
-
-Data Cleaning & Transformation
-
-Sports Analytics
-
-🚀 Use Cases
-
-IPL season comparison
-
-Team performance evaluation
-
-Player achievement analysis
-
-Sports analytics portfolio project
-
-📌 Why This Project?
-
-This project demonstrates my ability to:
-
-Convert raw sports data into business-ready insights
-
-Write efficient and scalable DAX measures
-
-Design professional dashboards with real-world datasets
-
-Apply analytical thinking to sports data
+⭐ If you like this project, consider starring the repository!
